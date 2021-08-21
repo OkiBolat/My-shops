@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Папаха овчина",
+    "price": 12999,
+    "image": "cardImg"
+  },
+  {
+    "name": "Папаха козья",
+    "price": 10239,
+    "image": "cardImg2"
+  },
+  {
+    "name": "Папаха горная",
+    "price": 15499,
+    "image": "cardImg3"
+  },
+  {
+    "name": "Папаха прекрасная",
+    "price": 11999,
+    "image": "cardImg4"
+  }
+]

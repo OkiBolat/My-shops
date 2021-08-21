@@ -1,0 +1,186 @@
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+
+}
+
+.drawer {
+/////////////
+  .items {
+    height: 60%;
+    margin-bottom: 20px;
+    overflow: auto;
+  }
+//////////////////
+  display: flex;
+  flex-direction: column;
+;
+
+
+  position: absolute;
+  width: 420px;
+  height: 100%;
+  right: 0;
+  padding: 30px;
+
+
+  background: #FFFFFF;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.2);
+
+  h2 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      cursor: pointer;
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+
+
+  &__add {
+    margin-top: 50%;
+
+    div {
+      div {
+        margin-bottom: -10px;
+        width: 60%;
+        border-bottom: 1px dashed black;
+      }
+
+
+    }
+
+    button {
+      position: relative;
+      transition: tranform 0.15s ease-in-out;
+
+      &:hover {
+        img {
+          transform: translateX(10px);
+        }
+      }
+
+      img {
+        right: 30px;
+        position: absolute;
+        top: 21px;
+        transition: 0.3s;
+
+
+      }
+    }
+  }
+
+  .cartItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 325px;
+    height: 119px;
+    padding: 10px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+
+    .cartImg {
+      width: 60px;
+      margin-right: 10px;
+
+      div {
+        margin: 20px;
+
+        p {
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 17px;
+
+          color: #000000;
+        }
+
+      }
+
+
+    }
+
+    .remove__btn {
+      cursor: pointer;
+      margin-right: 15px;
+      width: 16px;
+      height: 16px;
+      border-radius: 5px;
+      opacity: 0.2;
+      transition: 0.010s;
+
+      &:hover {
+
+        opacity: 1;
+
+
+      }
+    }
+  }
+
+}
+
+.add-button {
+
+
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #FFFFFF;
+  width: 325px;
+  height: 55px;
+
+
+  background: #9DD558;
+  border-radius: 18px;
+
+  // transition: 0.2s;
+  &:hover {
+    background-color: #a5d853;
+  }
+}
+.back-button {
+
+
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #FFFFFF;
+  width: 325px;
+  height: 55px;
+
+
+  background: #9DD558;
+  border-radius: 18px;
+
+  // transition: 0.2s;
+  &:hover {
+    background-color: #a5d853;
+  }
+}
